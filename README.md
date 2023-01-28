@@ -5,18 +5,18 @@ Implementacija C1 in C2 Powell-Sabinovih makro elementov ter Powel-Sabinove deli
 
 ## Navodila za uporabo
 
-Prenesite celotno mapo in jo odprite v MATLAB-u. Nato zaženite posamezno `_demo.m` datoteko za demonstracijo.
+Prenesite mapo [`matlab`](matlab) in jo odprite v MATLAB-u. Nato zaženite posamezno `_demo.m` datoteko za demonstracijo.
 
 ## Vsebina
 
 ### Powel-Sabinova delitev
 
-[PS_refinement.m](PS_refinement.m) implementira Powel-Sabinovo delitev. Za demonstracijo zaženite [PS_refinement_demo.m](PS_refinement_demo.m), z `enter` se korak po koraku izvede delitev.
+[`PS_refinement.m`](matlab/PS_refinement.m) implementira Powel-Sabinovo delitev. Za demonstracijo zaženite [`PS_refinement_demo.m`](matlab/PS_refinement_demo.m), z `enter` se korak po koraku izvede delitev.
 
 ### C1 makro element
 
-[PowellSabine.m](PowellSabine.m) implementira izračun kontrolnih točk za C1 makro element. Za demonstracijo zaženite [C1_demo.m](C1_demo.m).
+[`PowellSabine.m`](matlab/PowellSabine.m) implementira izračun kontrolnih točk za C1 makro element. Za demonstracijo zaženite [`C1_demo.m`](matlab/C1_demo.m).
 
 ### C2 makro element
 
-[c2ps.m](c2ps.m) implementira izračun kontrolnih točk za C2 makro element. Za demonstracijo zaženite [C2_demo.m](C2_demo.m).
+[`c2ps.m`](matlab/c2ps.m) implementira izračun kontrolnih točk za C2 makro element. Za demonstracijo zaženite [`C2_demo.m`](matlab/C2_demo.m).
